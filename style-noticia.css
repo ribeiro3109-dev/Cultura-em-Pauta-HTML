@@ -1,0 +1,153 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans';
+    background: #BF2A52;
+}
+
+nav a { 
+    margin: 0 10px; 
+    color:#F2E9CE; 
+    text-decoration: none; 
+}
+
+.header-cima {
+    background-color: #F2AE2E;      
+    width: 100%; 
+    height: 40px;  
+    display: flex;
+    align-items: center;       
+}
+
+.header-cima nav a {
+    color: #F2e9ce;
+    font-family: 'IBM Plex Sans';       
+    font-size: 15px;  
+    font-weight: 600;        
+}
+
+.header-cima nav a:hover {
+    color: #BFB74B;   
+}
+
+.header-baixo {
+    background-color: #F2E9CE;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold
+}
+
+.layout-container {
+    padding: 10px; 
+}
+
+.box {
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background: #D96C80;
+    color: #F2e9ce;
+    padding: 18px;
+    border-radius: 6px;
+    font-family: 'IBM Plex Sans';   
+    font-size: 15px;
+    display: flex;
+    align-items: center;  
+    gap: 15px;  
+}
+
+.img-noticia {
+    width: 100%;      
+    height: 300px;   
+    border-radius: 6px;  
+    margin-top: 10px;
+    margin-bottom: 0px;    
+}
+
+
+.box-img img {
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.box-texto {
+    flex: 1;                
+}
+
+.box-vertical1{
+    min-height: 125px;
+    background-image: url('tremembe-img2.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #F2e9ce;
+    padding: 18px;
+    border-radius: 6px;
+    font-family: 'IBM Plex Sans';   
+    font-size: 15px;    
+}
+
+.box-vertical2{
+    min-height: 125px;
+    background-image: url('grammy-img2.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #F2e9ce;
+    padding: 18px;
+    border-radius: 6px;
+    font-family: 'IBM Plex Sans';   
+    font-size: 15px;
+}
+
+.box-vertical3{
+    min-height: 125px;
+    background-image: url('wicked-img2.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #F2e9ce;
+    padding: 18px;
+    border-radius: 6px;
+    font-family: 'IBM Plex Sans';   
+    font-size: 15px;
+}
+
+.box-vertical4{
+    min-height: 125px;
+    background-image: url('imagemteste2.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #F2e9ce;
+    padding: 18px;
+    border-radius: 6px;
+    font-family: 'IBM Plex Sans';   
+    font-size: 15px;
+}
+
+.link-noticias {
+    color: #F2AE2E;
+}
+
+.link-noticias:hover {
+    color: #BFB74B;
+}
+
+
+footer {
+    background: #F2AE2E; 
+    color: #F2e9ce; 
+    text-align: center; 
+    padding: 10px; 
+}
